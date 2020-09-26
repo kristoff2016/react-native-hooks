@@ -4,7 +4,7 @@ import { StateContext } from '../containers/StateProvider'
 import { useNavigation } from '@react-navigation/native'
 
 export default function SplashContainer() {
-  const { navigate } = useNavigation()
+  const navigation = useNavigation()
 
   const { actions } = useContext(StateContext)
 
@@ -19,7 +19,7 @@ export default function SplashContainer() {
 
   useEffect(() => {
     mapValueToContext()
-    navigate('app_stack')
+    navigation.navigate('App')
   }, [])
 
   return (

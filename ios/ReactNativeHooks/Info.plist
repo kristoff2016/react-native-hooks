@@ -53,6 +53,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) requires background tracking</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>$(PRODUCT_NAME)would like to do a background tracking in order to update package tracking to the customer</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to access your location in order to update package tracking to the customer</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to use your microphone (for videos)</string>
+	<key>NSMotionUsageDescription</key>
+	<string>App requires motion tracking</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
