@@ -5,11 +5,12 @@ import { createSwitchNavigator } from '@react-navigation/compat'
 import { navigationRef, isReadyRef } from '../utils/navigationAction'
 import OverViewTab from './appRoute'
 import SplashStack from './stacks/splashStack'
+import AppNavigation from './appNavigation'
 
 const SwitchNavigator = createSwitchNavigator(
   {
     AuthLoading: SplashStack,
-    App: OverViewTab
+    App: AppNavigation
   },
   {
     initialRouteName: 'AuthLoading'
