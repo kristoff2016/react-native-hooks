@@ -73,6 +73,7 @@ export default () => (
       name="Home"
       component={Home}
       options={{
+        tabBarBadge: 3,
         tabBarIcon: ({ focused, color }) => (
           <TabBarIcon focused={focused} tintColor={color} name="home" />
         )
@@ -82,6 +83,7 @@ export default () => (
       name="Discover"
       component={Discover}
       options={{
+        tabBarBadge: 3,
         tabBarIcon: ({ focused, color, size }) => (
           <TabBarIcon focused={focused} tintColor={color} name="search" />
         )
